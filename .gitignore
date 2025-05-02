@@ -1,24 +1,94 @@
-# Compiled class file
+# === Java / Spring Boot ===
+target/
 *.class
-
-# Log file
-*.log
-
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
 *.jar
 *.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
+*.log
+*.hprof
+*.iml
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
+# === Maven / Gradle ===
+.mvn/
+!**/src/main/**
+!**/src/test/**
+.settings/
+.gradle/
+build/
+dependency-reduced-pom.xml
+*.iws
+.idea_modules/
+
+# === IntelliJ IDEA ===
+.idea/
+*.ipr
+*.iws
+out/
+*.env
+
+# === TypeScript / Node.js ===
+node_modules/
+dist/
+build/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-lock.yaml
+
+# === WebStorm ===
+*.log
+*.tsbuildinfo
+.vscode/
+*.sublime-workspace
+
+# === OS / System ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === Env / Secrets ===
+.env
+.env.local
+.env.*.local
+credentials.json
+google-credentials.json
+
+# === Logs ===
+logs/
+*.log
+
+# === Docker ===
+docker-compose.override.yml
+**/docker-volume/*
+**/.docker/*
+
+# === PostgreSQL data (if mounted) ===
+infra/postgres/data/
+infra/postgres/*.sql.bak
+
+# === Coverage / Reports ===
+coverage/
+.nyc_output/
+lcov-report/
+test-report/
+jacoco.exec
+
+# === Misc ===
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# === JetBrains specific ===
+*.idea/
+*.run/
+*.ijwb/
+*.iws
+
+# === Frontend build artifacts ===
+frontend/mini-app/.next/
+frontend/mini-app/.output/
+frontend/mini-app/.turbo/
+
+# === Firebase/Google Sheets (если используешь) ===
+firebase-debug.log
+service-account.json
