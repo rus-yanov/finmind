@@ -63,3 +63,13 @@
 git clone https://github.com/your-username/finmind.git
 cd finmind
 docker-compose up --build
+```
+- Access the Mini App inside Telegram via your configured bot URL.
+- Set up Google OAuth credentials before syncing with Sheets.
+
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+
