@@ -1,6 +1,6 @@
 # 🧠 FinMind — Telegram Mini App for Personal and Family Finance
 
-**FinMind** is a modern budgeting tool inside Telegram that helps users manage personal and family finances across multiple profiles, track income and expenses, generate analytics and charts, and synchronize everything with custom-structured Google Sheets.
+**FinMind** is a lightweight Telegram Mini App that helps users manage personal and family budgets, track income and expenses, view analytics with visual charts, and synchronize everything with Google Sheets — while preserving the structure of existing spreadsheets.
 
 ---
 
