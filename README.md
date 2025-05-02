@@ -23,7 +23,7 @@
 - Hosted on Vercel / GitHub Pages
 
 ### Backend (Microservices)
-- Java 17+, Spring Boot 3
+- Java 21, Spring Boot 3.5
 - Spring Web (REST API)
 - PostgreSQL
 - Flyway (DB migrations)
